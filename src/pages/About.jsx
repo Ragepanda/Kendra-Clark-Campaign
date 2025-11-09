@@ -16,8 +16,8 @@ function About() {
           Meet Kendra
         </span>
       </div>
-      <div className="bg-white rounded-3xl w-full h-auto text-xl 2xl:text-2xl">
-        <div className="p-10 min-h-100 flex justify-around gap-20 items-center max-sm:flex max-sm:flex-col-reverse">
+      <div className="bg-white rounded-3xl w-full h-auto text-xl 2xl:text-2xl 2xl:px-50">
+        <div className="p-10 min-h-100 flex justify-around gap-20 items-center max-md:flex max-md:flex-col-reverse">
           <p className="m-auto">
             I am someone who has always been engaged in the community. From a
             young age, I have been driven by the idea that we each have a
@@ -28,11 +28,11 @@ function About() {
             about learning that service to your community isn’t just a choice;
             it’s a responsibility.
           </p>
-          <img className="max-h-100" src={about1}></img>
+          <img className="max-lg:max-h-125 min-lg:max-h-150" src={about1}></img>
         </div>
 
         <div className="p-10 min-h-100 flex justify-around gap-20 max-lg:flex max-lg:flex-col items-center">
-          <img className="max-h-150" src={about2}></img>
+          <img className="" src={about2}></img>
           <div className="flex flex-col justify-center gap-20">
             <p>
               That sense of duty led me to social work, where I planned to help
@@ -54,7 +54,7 @@ function About() {
           </div>
         </div>
 
-        <div className="p-10 min-h-100 flex justify-around items-center gap-20 max-sm:flex max-sm:flex-col-reverse">
+        <div className="p-10 min-h-100 flex justify-around items-center gap-20 max-md:flex max-md:flex-col-reverse">
           <div className="flex flex-col justify-center gap-20">
             <p>
               Since then, my commitment has been action. As co-chair of the
@@ -75,10 +75,10 @@ function About() {
               coordinate community support.
             </p>
           </div>
-          <img className="max-h-150" src={about3}></img>
+          <img className="max-h-200" src={about3}></img>
         </div>
 
-        <div className="p-10 min-h-100 flex justify-around gap-20 items-center max-sm:flex max-sm:flex-col">
+        <div className="p-10 min-h-100 flex justify-around gap-20 items-center max-md:flex max-md:flex-col">
           <img className="max-h-150" src={about4}></img>
           <p className="m-auto">
             This is the fight I am prepared to bring to the state capitol. While

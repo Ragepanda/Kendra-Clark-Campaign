@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-100 border-t border-gray-300 mt-8">
       <div className="w-full px-4 py-8 flex flex-wrap justify-around gap-6">
         {/* Left - Contact Info */}
-        <div>
+        <div className="order-1">
           <h4 className="text-lg font-semibold mb-2 text-brand-blue">
             Contact
           </h4>
@@ -24,14 +24,14 @@ export default function Footer() {
         </div>
 
         {/* Middle - Disclaimer */}
-        <div className="flex items-center justify-center text-center order-1 md:order-0 px-12">
+        <div className="flex items-center justify-center text-center order-2 max-[802px]:order-4 px-12">
           <p className="text-xs text-gray-600">
             Paid for by the Committee to Elect Kendra Clark
           </p>
         </div>
 
         {/* Right - Link Tree */}
-        <div>
+        <div className="order-3">
           <h4 className="text-lg font-semibold mb-2 text-brand-blue">
             Quick Links
           </h4>
