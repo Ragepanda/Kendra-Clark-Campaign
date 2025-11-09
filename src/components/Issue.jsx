@@ -20,7 +20,7 @@ function Issue({ issueId, title, paragraphs, proposals }) {
             setShowProposal(!showProposal);
           }}
         >
-          <span className="font-bold text-xl">My Proposals</span>
+          <span className="font-bold text-xl">My Solutions</span>
           {showProposal ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"

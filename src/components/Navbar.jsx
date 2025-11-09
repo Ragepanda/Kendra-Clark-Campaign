@@ -25,6 +25,9 @@ export default function Navbar() {
             <Link to="/issues" className="hover:text-brand-green">
               Issues
             </Link>
+            <Link to="/about" className="hover:text-brand-green">
+              About Me
+            </Link>
             <a
               href="https://www.mobilize.us/votekendraclark/event/836393/"
               className="hover:text-brand-green"
