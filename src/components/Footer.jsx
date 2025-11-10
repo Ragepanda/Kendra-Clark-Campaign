@@ -51,6 +51,11 @@ export default function Footer() {
                 Issues
               </Link>
             </li>
+            <li>
+              <Link to="/about" className="text-blue-600 hover:underline">
+                About Me
+              </Link>
+            </li>
             {/* <li>
               <a href="/events" className="text-blue-600 hover:underline">
                 Events
