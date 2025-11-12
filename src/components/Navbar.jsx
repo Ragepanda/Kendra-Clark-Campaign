@@ -137,6 +137,9 @@ export default function Navbar() {
           >
             Issues
           </Link>
+          <Link to="/about" className="hover:text-brand-green">
+            About Me
+          </Link>
           <a
             href="https://www.mobilize.us/votekendraclark/event/836393/"
             className="block px-3 py-2 rounded-md hover:bg-brand-green hover:text-white"
