@@ -41,7 +41,7 @@ function Home() {
         </div>
       </section>
       {/*Info Cards */}
-      <section className="flex flex-col flex-wrap gap-4 py-16 px-4 md:flex-row w-full justify-center align-middle bg-brand-blue">
+      <section className="flex flex-col flex-wrap gap-4 py-16 pb-32 px-4 md:flex-row w-full justify-center align-middle bg-brand-blue">
         <div className="w-full lg:w-3/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-orange max-w-200 relative">
           <div className="w-1/2 bg-brand-orange text-white absolute -bottom-15 -left-3 md:-left-10 text-sm sm:text-lg md:text-2xl p-4">
             <p className="text-center font-bold">

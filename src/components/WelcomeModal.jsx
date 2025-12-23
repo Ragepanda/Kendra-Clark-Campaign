@@ -47,21 +47,46 @@ function WelcomeModal() {
             Georgia that works for all!
           </p>
           <div className="flex flex-wrap gap-3 justify-center pt-4">
-            <button className="w-full md:w-5/12 py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
-              $25
-            </button>
-            <button className="w-full md:w-5/12 py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
-              $50
-            </button>
-            <button className="w-full md:w-5/12 py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
-              $100
-            </button>
-            <button className="w-full md:w-5/12 py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
-              $250
-            </button>
-            <button className="w-full md:w-5/12 py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
-              Other Amount
-            </button>
+            <a
+              className="w-full md:w-5/12"
+              href="https://secure.actblue.com/donate/votekendraclark?amount=25"
+            >
+              <button className="w-full py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
+                $25
+              </button>
+            </a>
+            <a
+              className="w-full md:w-5/12"
+              href="https://secure.actblue.com/donate/votekendraclark?amount=50"
+            >
+              <button className="w-full py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
+                $50
+              </button>
+            </a>
+            <a
+              className="w-full md:w-5/12"
+              href="https://secure.actblue.com/donate/votekendraclark?amount=100"
+            >
+              <button className="w-full py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
+                $100
+              </button>
+            </a>
+            <a
+              className="w-full md:w-5/12"
+              href="https://secure.actblue.com/donate/votekendraclark?amount=250"
+            >
+              <button className="w-full py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
+                $250
+              </button>
+            </a>
+            <a
+              className="w-full md:w-5/12"
+              href="https://secure.actblue.com/donate/votekendraclark"
+            >
+              <button className="w-full py-2 rounded-lg bg-brand-blue text-white hover:bg-white hover:text-brand-blue hover:border-2 hover:border-brand-blue">
+                Other Amount
+              </button>
+            </a>
           </div>
         </div>
       </div>
