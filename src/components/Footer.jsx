@@ -63,7 +63,7 @@ export default function Footer() {
             </li> */}
             <li>
               <a
-                href="https://www.mobilize.us/votekendraclark/event/836393/"
+                href="https://docs.google.com/forms/d/1tkkknR45prWpMQyrkJEw6T0HNxIPWzDgMXAcMVNW1Wk/edit"
                 className="text-blue-600 hover:underline"
               >
                 Volunteer
@@ -75,6 +75,14 @@ export default function Footer() {
                 className="text-blue-600 hover:underline"
               >
                 Donate
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.mobilize.us/votekendraclark/"
+                className="text-blue-600 hover:underline"
+              >
+                Events
               </a>
             </li>
           </ul>

@@ -14,11 +14,11 @@ export default function Navbar() {
           {/* Logo / Brand */}
           <img
             src={isMobile ? miniLogo : campaignLogo}
-            className="flex-shrink-0 h-full w-auto py-4"
+            className="flex-shrink-0 h-2/3 lg:h-full w-auto py-4"
           />
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8 font-black">
+          <div className="hidden md:flex space-x-8 font-black text-sm lg:text-lg">
             <Link to="/" className="hover:text-brand-green">
               Home
             </Link>
@@ -29,7 +29,7 @@ export default function Navbar() {
               About Me
             </Link>
             <a
-              href="https://www.mobilize.us/votekendraclark/event/836393/"
+              href="https://docs.google.com/forms/d/1tkkknR45prWpMQyrkJEw6T0HNxIPWzDgMXAcMVNW1Wk/edit"
               className="hover:text-brand-green"
             >
               Volunteer
@@ -38,7 +38,13 @@ export default function Navbar() {
               href="https://secure.actblue.com/donate/votekendraclark"
               className="hover:text-brand-green"
             >
-              Contribute
+              Donate
+            </a>
+            <a
+              href="https://www.mobilize.us/votekendraclark/"
+              className="hover:text-brand-green"
+            >
+              Events
             </a>
             <div className="flex justify-between w-22">
               <a
@@ -144,7 +150,7 @@ export default function Navbar() {
             About Me
           </Link>
           <a
-            href="https://www.mobilize.us/votekendraclark/event/836393/"
+            href="https://docs.google.com/forms/d/1tkkknR45prWpMQyrkJEw6T0HNxIPWzDgMXAcMVNW1Wk/edit"
             className="block px-3 py-2 rounded-md hover:bg-brand-green hover:text-white"
           >
             Volunteer
@@ -153,8 +159,14 @@ export default function Navbar() {
             to="https://secure.actblue.com/donate/votekendraclark"
             className="block px-3 py-2 rounded-md hover:bg-brand-green hover:text-white"
           >
-            Contribute
+            Donate
           </Link>
+          <a
+            href=" https://www.mobilize.us/votekendraclark/"
+            className="block px-3 py-2 rounded-md hover:bg-brand-green hover:text-white"
+          >
+            Events
+          </a>
         </div>
       )}
     </nav>

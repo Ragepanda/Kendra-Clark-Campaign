@@ -1,6 +1,7 @@
 import cityBackgroundImage from "../assets/city-background.png";
-import homeImage1 from "../assets/home-photo-2.jpg";
+// import homeImage1 from "../assets/home-photo-2.jpg";
 import kendraHeadshot from "../assets/kendra-transparent.png";
+import campaignLogoMini from "../assets/campaign-logo-mini.png";
 import GeorgiaHouse165Map from "../components/GeorgiaHouse165Map";
 
 function Home() {
@@ -25,11 +26,11 @@ function Home() {
               className="w-5/12"
             >
               <button className="rounded-lg bg-brand-white text-brand-green hover:bg-brand-green hover:text-brand-white w-full min-w-30 h-full font-bold">
-                Contribute
+                Donate
               </button>
             </a>
             <a
-              href="https://www.mobilize.us/votekendraclark/event/836393/"
+              href="https://docs.google.com/forms/d/1tkkknR45prWpMQyrkJEw6T0HNxIPWzDgMXAcMVNW1Wk/edit"
               className="w-5/12"
             >
               <button className="rounded-lg bg-brand-green text-brand-white hover:bg-brand-white hover:text-brand-green w-full min-w-30 h-full font-bold">
@@ -40,28 +41,248 @@ function Home() {
         </div>
       </section>
       {/*Info Cards */}
-      <section className="flex flex-col flex-wrap gap-4 py-8 px-4 md:flex-row w-full justify-center align-middle">
-        <div className="w-full md:w-11/24 md:min-w-11/24 p-4 px-8 bg-brand-white rounded-2xl flex flex-col justify-center">
-          <h2 className="text-4xl font-bold text-brand-orange pb-6">
-            Meet Kendra
+      <section className="flex flex-col flex-wrap gap-4 py-16 px-4 md:flex-row w-full justify-center align-middle bg-brand-blue">
+        <div className="w-full lg:w-3/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-orange max-w-200 relative">
+          <div className="w-1/2 bg-brand-orange text-white absolute -bottom-15 -left-3 md:-left-10 text-sm sm:text-lg md:text-2xl p-4">
+            <p className="text-center font-bold">
+              Join the fight to create a Georgia that works for the many, not
+              just the few!
+            </p>
+          </div>
+          <img className="h-24 self-center" src={campaignLogoMini} />
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-blue pb-6 flex justify-center gap-4">
+            <span className="text-brand-orange">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 100 100"
+                height="40"
+                width="40"
+                className="text-4xl fill-current"
+              >
+                <polygon points="50 5 61 38 95 38 67 58 78 91 50 70 22 91 33 58 5 38 39 38" />
+              </svg>
+            </span>
+            <span className="font-extrabold">I WILL FIGHT FOR</span>
+            <span className="text-brand-orange">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 100 100"
+                height="40"
+                width="40"
+                className="text-4xl fill-current"
+              >
+                <polygon points="50 5 61 38 95 38 67 58 78 91 50 70 22 91 33 58 5 38 39 38" />
+              </svg>
+            </span>
           </h2>
-          <p className="text-xl">
-            I'm running to create a system that values people over profit and
-            compassion over punishment. Because no one should go bankrupt from
-            medical bills. No one should have to work three jobs just to
-            survive. And no one should have to beg for basic dignity.
-          </p>
-          <p className="text-xl pt-6">
-            I'm not taking a dime from developers, corporate PACs, or SCAD. My
-            loyalty is to you. I'll fight to cap rent hikes, lower healthcare
-            costs and expand worker protections. It's time for a government that
-            works for all Georgians. Let's build that future together.
-          </p>
+          <div className="flex justify-center">
+            <div className="flex flex-col gap-8 w-1/2 justify-between pb-24">
+              <div className="flex">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 256"
+                    height="32"
+                    width="32"
+                  >
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="#66BB6A"
+                      stroke-width="18"
+                    />
+
+                    <path
+                      d="M78 132 C90 150, 104 168, 118 184 C140 150, 170 104, 198 72"
+                      fill="none"
+                      stroke="#FF7043"
+                      stroke-width="20"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span className="text-brand-green text-xl md:text-2xl font-extrabold pl-2">
+                  {"  "}
+                  Lower Rent Costs
+                </span>
+              </div>
+
+              <div className="flex">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 256"
+                    height="32"
+                    width="32"
+                  >
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="#66BB6A"
+                      stroke-width="18"
+                    />
+
+                    <path
+                      d="M78 132 C90 150, 104 168, 118 184 C140 150, 170 104, 198 72"
+                      fill="none"
+                      stroke="#FF7043"
+                      stroke-width="20"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span className="text-brand-green text-xl md:text-2xl font-extrabold pl-2">
+                  {"  "}
+                  Fully Funded Schools
+                </span>
+              </div>
+
+              <div className="flex">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 256"
+                    height="32"
+                    width="32"
+                  >
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="#66BB6A"
+                      stroke-width="18"
+                    />
+
+                    <path
+                      d="M78 132 C90 150, 104 168, 118 184 C140 150, 170 104, 198 72"
+                      fill="none"
+                      stroke="#FF7043"
+                      stroke-width="20"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span className="text-brand-green text-xl md:text-2xl font-extrabold pl-2">
+                  {"  "}
+                  No Cost Childcare
+                </span>
+              </div>
+
+              <div className="flex">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 256"
+                    height="32"
+                    width="32"
+                  >
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="#66BB6A"
+                      stroke-width="18"
+                    />
+
+                    <path
+                      d="M78 132 C90 150, 104 168, 118 184 C140 150, 170 104, 198 72"
+                      fill="none"
+                      stroke="#FF7043"
+                      stroke-width="20"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span className="text-brand-green text-xl md:text-2xl font-extrabold pl-2">
+                  {"  "}
+                  Raising the Minimum Wage
+                </span>
+              </div>
+            </div>
+            <div className="flex flex-col w-1/2 gap-8 justify-between">
+              <div className="flex">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 256"
+                    height="32"
+                    width="32"
+                  >
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="#66BB6A"
+                      stroke-width="18"
+                    />
+
+                    <path
+                      d="M78 132 C90 150, 104 168, 118 184 C140 150, 170 104, 198 72"
+                      fill="none"
+                      stroke="#FF7043"
+                      stroke-width="20"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span className="text-brand-green text-xl md:text-2xl font-extrabold pl-2">
+                  {"  "}
+                  Expanding Access to Quality, Affordable Healthcare
+                </span>
+              </div>
+
+              <div className="flex">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 256"
+                    height="32"
+                    width="32"
+                  >
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="#66BB6A"
+                      stroke-width="18"
+                    />
+
+                    <path
+                      d="M78 132 C90 150, 104 168, 118 184 C140 150, 170 104, 198 72"
+                      fill="none"
+                      stroke="#FF7043"
+                      stroke-width="20"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span className="text-brand-green text-xl md:text-2xl font-extrabold pl-2">
+                  {"  "}
+                  Ensuring Homes are Owned By Families, Not Corporations
+                </span>
+              </div>
+              <img src={kendraHeadshot} />
+            </div>
+          </div>
         </div>
-        <img
+        {/* <img
           src={homeImage1}
           className="w-full h-auto md:w-11/24 md:min-w-11/24 object-cover object-[75%_50%] rounded-2xl"
-        ></img>
+        ></img> */}
         {/* <div className="bg-amber-200 w-full md:w-4/10 md:min-w-4/10"></div>
         <img
           src={stockImage2}
@@ -73,9 +294,7 @@ function Home() {
         className={`bg-cover bg-center w-full flex justify-center items-center gap-8 h-auto p-16 md:h-120 md:aspect-5/2 lg:aspect-3/1 lg:min-h-112`}
       >
         <div className="bg-brand-white max-w-full rounded-3xl p-8 flex flex-col gap-4">
-          <h2 className="text-brand-green text-3xl font-extrabold">
-            Contribute
-          </h2>
+          <h2 className="text-brand-green text-3xl font-extrabold">Donate</h2>
           <p className="text-xl">
             Donate today and join the movement to create a Georgia that works
             for all!
@@ -133,7 +352,7 @@ function Home() {
             Heights, West Savannah and Isle of Hope neighborhoods.
           </p>
         </div>
-        <div className="w-11/12 min-h-100 h-100 rounded-2xl">
+        <div className="w-11/12 min-h-100 h-100 rounded-2xl z-0">
           <GeorgiaHouse165Map />
         </div>
       </section>
