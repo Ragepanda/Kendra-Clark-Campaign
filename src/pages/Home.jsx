@@ -1,5 +1,5 @@
 import cityBackgroundImage from "../assets/city-background.png";
-// import homeImage1 from "../assets/home-photo-2.jpg";
+import homeImage1 from "../assets/home-photo-2.jpg";
 import kendraHeadshot from "../assets/kendra-transparent.png";
 import campaignLogoMini from "../assets/campaign-logo-mini.png";
 import GeorgiaHouse165Map from "../components/GeorgiaHouse165Map";
@@ -41,9 +41,13 @@ function Home() {
         </div>
       </section>
       {/*Info Cards */}
-      <section className="flex flex-col flex-wrap gap-4 py-16 pb-32 px-4 md:flex-row w-full justify-center align-middle bg-brand-blue">
-        <div className="w-full lg:w-3/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-orange max-w-200 relative">
-          <div className="w-1/2 bg-brand-orange text-white absolute -bottom-15 -left-3 md:-left-10 text-sm sm:text-lg md:text-2xl p-4">
+      <section className="flex flex-col gap-4 py-16 pb-32 px-4 lg:flex-row w-full justify-center align-middle">
+        <img
+          src={homeImage1}
+          className="w-full lg:w-11/24 lg:max-w-11/24 h-auto max-h-200  object-cover object-[75%_50%] rounded-2xl grow"
+        ></img>
+        <div className="w-full lg:w-3/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-blue max-w-200 relative self-center">
+          <div className="w-1/2 bg-brand-orange text-white absolute -bottom-15 -left-3 md:-left-10 text-sm sm:text-base lg:text-xl p-4">
             <p className="text-center font-bold">
               Join the fight to create a Georgia that works for the many, not
               just the few!
@@ -279,10 +283,6 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* <img
-          src={homeImage1}
-          className="w-full h-auto md:w-11/24 md:min-w-11/24 object-cover object-[75%_50%] rounded-2xl"
-        ></img> */}
         {/* <div className="bg-amber-200 w-full md:w-4/10 md:min-w-4/10"></div>
         <img
           src={stockImage2}
