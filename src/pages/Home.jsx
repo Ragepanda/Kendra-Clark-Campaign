@@ -46,7 +46,7 @@ function Home() {
           src={homeImage1}
           className="w-full lg:w-11/24 lg:max-w-11/24 h-auto max-h-200  object-cover object-[75%_50%] rounded-2xl grow"
         ></img>
-        <div className="w-full lg:w-3/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-blue max-w-200 relative self-center">
+        <div className="min-w-136 lg:w-1/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-blue max-w-200 relative self-center gap-8">
           <div className="w-1/2 bg-brand-orange text-white absolute -bottom-15 -left-3 md:-left-10 text-sm sm:text-base lg:text-xl p-4">
             <p className="text-center font-bold">
               Join the fight to create a Georgia that works for the many, not
@@ -54,33 +54,34 @@ function Home() {
             </p>
           </div>
           <img className="h-24 self-center" src={campaignLogoMini} />
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-blue pb-6 flex justify-center gap-4">
+          <h2 className="text-3xl md:text-3xl font-bold text-brand-blue pb-6 flex justify-center gap-6">
             <span className="text-brand-orange">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 100 100"
-                height="40"
-                width="40"
+                height="32"
+                width="32"
                 className="text-4xl fill-current"
               >
                 <polygon points="50 5 61 38 95 38 67 58 78 91 50 70 22 91 33 58 5 38 39 38" />
               </svg>
             </span>
-            <span className="font-extrabold">I WILL FIGHT FOR</span>
+            <span className="font-extrabold">KENDRA IS FIGHTING FOR</span>
             <span className="text-brand-orange">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 100 100"
-                height="40"
-                width="40"
+                height="32"
+                width="32"
                 className="text-4xl fill-current"
               >
                 <polygon points="50 5 61 38 95 38 67 58 78 91 50 70 22 91 33 58 5 38 39 38" />
               </svg>
             </span>
           </h2>
-          <div className="flex justify-center">
-            <div className="flex flex-col gap-8 w-1/2 justify-between pb-24">
+
+          <div className="flex">
+            <div className="flex flex-col gap-10 w-full justify-between pb-24">
               <div className="flex">
                 <span>
                   <svg
@@ -212,8 +213,7 @@ function Home() {
                   Raising the Minimum Wage
                 </span>
               </div>
-            </div>
-            <div className="flex flex-col w-1/2 gap-8 justify-between">
+
               <div className="flex">
                 <span>
                   <svg
@@ -246,7 +246,6 @@ function Home() {
                   Expanding Access to Quality, Affordable Healthcare
                 </span>
               </div>
-
               <div className="flex">
                 <span>
                   <svg
@@ -279,8 +278,12 @@ function Home() {
                   Ensuring Homes are Owned By Families, Not Corporations
                 </span>
               </div>
-              <img src={kendraHeadshot} />
             </div>
+            {/* <div className="flex flex-col w-1/2 gap-4">
+              
+
+
+            </div> */}
           </div>
         </div>
         {/* <div className="bg-amber-200 w-full md:w-4/10 md:min-w-4/10"></div>
