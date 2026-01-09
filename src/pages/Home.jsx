@@ -46,7 +46,7 @@ function Home() {
           src={homeImage1}
           className="w-full lg:w-11/24 lg:max-w-11/24 h-auto max-h-200  object-cover object-[75%_50%] rounded-2xl grow"
         ></img>
-        <div className="min-w-136 lg:w-1/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-blue max-w-200 relative self-center gap-8">
+        <div className="min-w-full md:min-w-136 lg:w-1/4 p-4 px-8 pb-0 bg-brand-white flex flex-col justify-center border-4 border-brand-blue max-w-200 relative self-center gap-8">
           <div className="w-1/2 bg-brand-orange text-white absolute -bottom-15 -left-3 md:-left-10 text-sm sm:text-base lg:text-xl p-4">
             <p className="text-center font-bold">
               Join the fight to create a Georgia that works for the many, not
@@ -54,7 +54,7 @@ function Home() {
             </p>
           </div>
           <img className="h-24 self-center" src={campaignLogoMini} />
-          <h2 className="text-3xl md:text-3xl font-bold text-brand-blue pb-6 flex justify-center gap-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-brand-blue pb-6 flex justify-center gap-6">
             <span className="text-brand-orange">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,9 @@ function Home() {
                 <polygon points="50 5 61 38 95 38 67 58 78 91 50 70 22 91 33 58 5 38 39 38" />
               </svg>
             </span>
-            <span className="font-extrabold">KENDRA IS FIGHTING FOR</span>
+            <span className="font-extrabold text-center">
+              KENDRA IS FIGHTING FOR
+            </span>
             <span className="text-brand-orange">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
